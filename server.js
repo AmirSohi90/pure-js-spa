@@ -5,7 +5,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3000
 
-// whenever the path has /static serve the static directory as per usual
+// whenever the path has /static serve the static directory as per usual test
 app.use("/static", express.static(path.resolve(__dirname, "frontend", "static")));
 
 app.get("/*", (req, res) => {
