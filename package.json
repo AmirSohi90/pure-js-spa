@@ -24,6 +24,8 @@
   },
   "devDependencies": {
     "eslint": "^8.54.0",
-    "eslint-plugin-async-await": "0.0.0"
+    "eslint-plugin-async-await": "0.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.2"
   }
 }

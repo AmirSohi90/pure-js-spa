@@ -1,13 +1,13 @@
-import {AbstractView} from "./AbstractView.js";
+import { AbstractView } from "./AbstractView.js";
 
-export class Dashboard extends AbstractView {
-    constructor(){
-        super();
+export class DashboardView extends AbstractView {
+    constructor(params) {
+        super(params);
         this.setTitle("Dashboard");
     }
 
     // this could be async so we can grab data from the server if we want
-    getHtml(){
+    getHtml() {
         return `
             <h1>Welcome back, Amir</h1>
             <p>JIAOWSJRAOI AJISOJIOAJIOAIA AJIOFJASF</p>
